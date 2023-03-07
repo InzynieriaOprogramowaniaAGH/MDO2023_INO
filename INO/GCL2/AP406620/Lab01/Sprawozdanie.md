@@ -52,9 +52,9 @@ Treść pliku:
 
 12. Stworzyłam plik ze sprawozdaniem:
 
-<img src="13.png">
+<img src="13..png">
 
-13. Wysłaąłam zmiany do zdalnego źródła:
+13. Wysłałam zmiany do zdalnego źródła:
 
 <img src="14.png">
 
