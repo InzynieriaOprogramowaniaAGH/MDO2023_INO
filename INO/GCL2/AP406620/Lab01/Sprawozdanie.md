@@ -62,10 +62,10 @@ Treść pliku:
 
 <img src="15.png">
 
-*Przy commicie nie zadziałał hook, dlatego naprawiłam błąd i wykonałam test:
-
-<img src="16.png">
+!!Przy commicie nie zadziałał hook, dlatego naprawiłam błąd i wykonałam test:
 
 <img src="17.png">
+
+<img src="16.png">
 
 Wyświetliła się ":)" zatem hook zaczął działać poprawnie.
