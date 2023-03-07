@@ -30,7 +30,7 @@ Klucz, który używam jako metodę dostępu do GitHuba utworzyłam jeszcze przed
 
 <img src="7.png">
 
-7. Stworzyłam gałąź zawierającą moje inicjałi i numer indeksu, a następnie rozpoczełam na niej pracę:
+7. Stworzyłam gałąź zawierającą moje inicjały i numer indeksu, a następnie rozpoczełam na niej pracę:
 
 <img src="8.png">
 
@@ -50,6 +50,22 @@ Treść pliku:
 
 <img src="12.png">
 
-12. Stworzyłam plik ze sprawozdaniem.
+12. Stworzyłam plik ze sprawozdaniem:
 
+<img src="13.png">
 
+13. Wysłaąłam zmiany do zdalnego źródła:
+
+<img src="14.png">
+
+14. Wciągnełam gałąź do gałęzi grupowej:
+
+<img src="15.png">
+
+*Przy commicie nie zadziałał hook, dlatego naprawiłam błąd i wykonałam test:
+
+<img src="16.png">
+
+<img src="17.png">
+
+Wyświetliła się ":)" zatem hook zaczął działać poprawnie.
