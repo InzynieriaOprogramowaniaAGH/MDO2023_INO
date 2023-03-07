@@ -1,0 +1,9 @@
+#!/usr/bin/sh
+declare -r msg=$(< $1);
+
+if echo "$msg" | egrep ^[A-Z]{2}[1-9]{1}[0-9]{5}[[:space:]] ; then
+ echo "Poprawnie"
+else
+ echo "Popraw smyku nazwe commita"
+ exit 1
+fi
