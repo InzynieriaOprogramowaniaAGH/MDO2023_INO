@@ -1,4 +1,4 @@
-Sprawozdanie laboratorium 1 - Justyna Ślósarz
+#Sprawozdanie laboratorium 1 - Justyna Ślósarz
 
 1.Zainstalowano klienta Git i obsługę kluczy SSH:
 ![zdjecie](./screeny/1.png)
@@ -8,11 +8,13 @@ Sprawozdanie laboratorium 1 - Justyna Ślósarz
 
 3.Utworzono klucze ssh w folderze .ssh, następnie sklonowano repozytorium za pomocą utworzonego klucza SSH:
 ![zdjecie](./screeny/3a.png)
-![zdjecie](./screeny/3a.png)
+
+![zdjecie](./screeny/3b.png)
 
 
 4.Przełączono się na gałąź main, a potem na gałąź swojej grupy(GCL6):
 ![zdjecie](./screeny/4.png)
+
 ![zdjecie](./screeny/4a.png)
 
 
@@ -35,8 +37,10 @@ Sprawozdanie laboratorium 1 - Justyna Ślósarz
 
 - Dodano zrzuty ekranu, a następnie wysłano zmiany do zdalnego źródła:
 ![zdjecie](./screeny/7a.png)
+
 ![zdjecie](./screeny/7b.png)
 
 - Wciągnięto swoją gałąź do gałęzi grupowej:
-- Zaktualizowano sprawozdanie i zrzuty o poprzednie kroki i wysłano aktualizację do zdalnego źródła:
+![zdjecie](./screeny/8a.png)
+
 
