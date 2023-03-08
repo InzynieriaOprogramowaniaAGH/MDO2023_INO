@@ -2,17 +2,15 @@
 
 name="KT407985"
 
-commit_msg_file = $1
-commit_msg = $(cat $commit_msg_file)
+commit_msg_file=$1
+commit_msg=$(cat $commit_msg_file)
 
-if ! echo "$commit_msg" | grep -q "^$name"; then
+if ! echo "$commit_msg" | grep -q "^$name" ; then
         echo "Nazwa musi zaczynac sie od $name"
         exit 1
 else
         echo "Poprawna nazwa commita"
 fi
-
-
 
 
 
