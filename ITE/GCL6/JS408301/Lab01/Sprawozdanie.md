@@ -33,7 +33,10 @@ Sprawozdanie laboratorium 1 - Justyna Ślósarz
 - W katalogu dodano plik ze sprawozdaniem:
 ![zdjecie](./screeny/6f.png)
 
-- Wysłano zmiany do zdalnego źródła:
+- Dodano zrzuty ekranu, a następnie wysłano zmiany do zdalnego źródła:
+![zdjecie](./screeny/7a.png)
+![zdjecie](./screeny/7b.png)
+
 - Wciągnięto swoją gałąź do gałęzi grupowej:
 - Zaktualizowano sprawozdanie i zrzuty o poprzednie kroki i wysłano aktualizację do zdalnego źródła:
 
