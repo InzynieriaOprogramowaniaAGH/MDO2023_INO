@@ -1,27 +1,39 @@
 Sprawozdanie laboratorium 1 - Justyna Ślósarz
 
-1.Zainstaluj klienta Git i obsługę kluczy SSH:
-(./screeny/1.png)
+1.Zainstalowano klienta Git i obsługę kluczy SSH:
+![zdjecie](./screeny/1.png)
 
-2.Sklonuj repozytorium https://github.com/InzynieriaOprogramowaniaAGH/MDO2023_INO za pomocą HTTPS:
+2.Sklonowano repozytorium https://github.com/InzynieriaOprogramowaniaAGH/MDO2023_INO za pomocą HTTPS:
+![zdjecie](./screeny/2.png)
 
-3.Upewnij się w kwestii dostępu do repozytorium jako uczestnik i sklonuj je za pomocą utworzonego klucza SSH:
+3.Utworzono klucze ssh w folderze .ssh, następnie sklonowano repozytorium za pomocą utworzonego klucza SSH:
+![zdjecie](./screeny/3a.png)
+![zdjecie](./screeny/3a.png)
 
-4.Przełącz się na gałąź main, a potem na gałąź swojej grupy:
 
-5.Utwórz gałąź o nazwie "inicjały & nr indeksu" np. KD232144:
+4.Przełączono się na gałąź main, a potem na gałąź swojej grupy(GCL6):
+![zdjecie](./screeny/4.png)
+![zdjecie](./screeny/4a.png)
 
-6.Rozpocznij pracę na nowej gałęzi:
-- W katalogu właściwym dla grupy utwórz nowy katalog, także o nazwie "inicjały & nr indeksu":
 
-- Napisz Git hook'a - skrypt weryfikujący, że każdy Twój "commit message" zaczyna się od "twoje inicjały & nr indexu":
+5.Utworzono gałąź o nazwie "JS408301" i rozpoczęto pracę na tejże gałęzi:
+- W katalogu właściwym dla grupy utworzono nowy katalog, o nazwie "JS408301":
+![zdjecie](./screeny/5a.png)
 
-- Dodaj ten skrypt do stworzonego wcześniej katalogu:
-- Skopiuj go we właściwe miejsce, tak by uruchamiał się za każdym razem kiedy robisz commita.
-- Umieść treść githooka w sprawozdaniu.
-- W katalogu dodaj plik ze sprawozdaniem
+- Napisano Git hook'a - skrypt weryfikujący informację o tym, że każdy "commit message" musi zaczynać się od "JS408301":
+![zdjecie](./screeny/6b.png)
 
-    Wyślij zmiany do zdalnego źródła
-    Spróbuj wciągnąć swoją gałąź do gałęzi grupowej
-    Zaktualizuj sprawozdanie i zrzuty o ten krok i wyślij aktualizację do zdalnego źródła (na swojej gałęzi)
+- Dodano skrypt do stworzonego wcześniej katalogu:
+![zdjecie](./screeny/6c.png)
+
+- Skopiowano go we właściwe miejsce, tak by uruchamiał się za każdym razem kiedy robiony jest commit, tak jak zostało przedstawione to wyżej.
+- Umieszczono treść githooka w sprawozdaniu.
+![zdjecie](./screeny/6e.png)
+
+- W katalogu dodano plik ze sprawozdaniem:
+![zdjecie](./screeny/6f.png)
+
+- Wysłano zmiany do zdalnego źródła:
+- Wciągnięto swoją gałąź do gałęzi grupowej:
+- Zaktualizowano sprawozdanie i zrzuty o poprzednie kroki i wysłano aktualizację do zdalnego źródła:
 
