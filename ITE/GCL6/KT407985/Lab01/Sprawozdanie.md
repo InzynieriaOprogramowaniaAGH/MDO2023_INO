@@ -25,7 +25,7 @@ git clone
  <p style="text-align: justify">W celu konfiguracji dostępu do GitHuba wykorzystano utworzony już wcześniej, przed zajęciami klucz SSH algorytmem RSA - jego generowanie polegało na wykorzystnaiu samej komendy:
 
  ```cmd
- ssh-keygen
+ ssh--keygen
  ```
  Poniżej przedstawiono gdzie umiejscowione są te klucze (katalog .ssh). </p>
 
