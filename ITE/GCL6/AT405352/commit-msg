@@ -1,0 +1,13 @@
+#!/usr/bin/env python3
+
+import sys
+import re
+
+commit_msg_file = sys.argv[1]
+commit_msg = open(commit_msg_file).read()
+
+if not re.match(r'^DevOps.*', commit_msg):
+    print('Commit message must start with "DevOps"')
+    sys.exit(1)
+
+sys.exit(0)
