@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 #
 # An example hook script to prepare the commit log message.
 # Called by "git commit" with the name of the file that has the
@@ -20,17 +20,18 @@
 # The third example adds a Signed-off-by line to the message, that can
 # still be edited.  This is rarely a good idea.
 
+
+
 COMMIT_MSG_FILE=$1
 COMMIT_SOURCE=$2
 SHA1=$3
 
-#!/bin/bash
-
 SUB='HP405520'
-if [[ "$COMMIT_MSG_FILE" == *"$SUB"* ]]; then
-  echo "Commit message is ok"
-fi
+MESSAGE=$(<$1)
 
+if [[ $MESSAGE == *$SUB* ]]; then
+	echo "Correct commit message"
+fi
 
 # case "$COMMIT_SOURCE,$SHA1" in
 #  ,|template,)
