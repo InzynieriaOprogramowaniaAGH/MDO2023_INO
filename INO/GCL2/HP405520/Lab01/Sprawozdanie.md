@@ -9,7 +9,7 @@ wlasnego brancha(HP405520) przez to samo polecenie z flaga `-b`
 
 3.Utworzenie katalogu o nazwie brancha i napisanie git hooka, ktory sprawdza czy commit message
 zawiera inicjaly i numer indeksu. Hook przedstawia sie tak:
-![image](images/gitHook.png)
+![image](images/hook.png)
 
-4.A w ten sposob dziala hook:
-![image](images/wrongCommitMessage.png)
+4.A w ten sposob dziala hook przy zlym commit message:
+![image](images/wrongMessage.png)
