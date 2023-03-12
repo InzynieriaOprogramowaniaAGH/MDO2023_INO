@@ -1,0 +1,12 @@
+#!/bin/bash
+
+commit_name="OS407005"
+
+message="ERROR: Wrong commit name, please try $commit_name."
+
+if ! grep -iqE "$commit_name" "$1";
+then
+	echo "$message"
+	exit 1
+fi
+exit 0
