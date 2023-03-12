@@ -1,0 +1,11 @@
+#!/bin/bash
+
+inicjaly_i_numer_indeksu="GS406973"
+if ! grep -iqE "$inicjaly_i_numer_indeksu" "$1"; then
+echo "brak podpisu"
+exit 1
+else
+
+echo "okej"
+exit 0;
+fi
