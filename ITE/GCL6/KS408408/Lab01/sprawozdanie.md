@@ -3,9 +3,11 @@
 Sprawozdanie z Laboratorium numer 1
 ---
 1. Przed zajęciami zainstalowano klienta Git:
+
 ![Wersja gita](../zrzutyEkranu/Lab1/1.png/)
 
-2. Sklonowano repozytorium przy użyciu html
+2. Sklonowano repozytorium przy użyciu html:
+
 ![Sklonowanie repozytorium przez HTML](../zrzutyEkranu/Lab1/2.png)
 
 3. Utworzono klucz ssh z opcją -f tworzącą go w aktualnie znajdującej się lokalizacji:
