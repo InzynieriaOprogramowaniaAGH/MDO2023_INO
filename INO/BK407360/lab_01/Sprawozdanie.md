@@ -16,9 +16,9 @@
 + Sklonuj repozytorium z wykorzystaniem protokołu SSH
 ![](screenshots/klucze.png)
 ![](screenshots/dodanie_klucza.png)
-# Klonowanie repozytorium identycznie jak w przypadku HTTPS tylko wklejamy inny link
 
-# 'git clone git@github.com:InzynieriaOprogramowaniaAGH/MDO2023_INO.git'
++ Klonowanie repozytorium identycznie jak w przypadku HTTPS tylko wklejamy inny link
++ 'git clone git@github.com:InzynieriaOprogramowaniaAGH/MDO2023_INO.git'
 
 #4. Przełącz się na gałąź main, a potem na gałąź swojej grupy (pilnuj gałęzi i katalogu!)
 ![](screenshots/zmiana_galezi_v2.png)
@@ -31,3 +31,4 @@
 + Tutaj rozpoczalem tworzenie odpowiednich katalogow, napisalem skrypt weryfikujacy 'commit message' oraz aktualizowalem na biezaco sprawozdanie
 ![](screenshots/git_hook.png)
 ![](screenshots/git_status.png)
+![](screenshots/git_commit_test.png)
