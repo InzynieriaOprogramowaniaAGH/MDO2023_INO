@@ -4,7 +4,7 @@ Sprawozdanie z Laboratorium numer 1
 ---
 1. Przed zajęciami zainstalowano klienta Git:
 
-![Wersja gita](../zrzutyEkranu/Lab1/1.png/)
+<center>![Wersja gita](../zrzutyEkranu/Lab1/1.png/)</center>
 
 2. Sklonowano repozytorium przy użyciu html:
 
