@@ -35,3 +35,9 @@
 
 * Utworzono odpowiednią strukturę katalogów i dodano plik ze sprawozdaniem w formacie Markdown. 
 
+* Utworzono hook pre-commit. 
+
+
+
+
+
