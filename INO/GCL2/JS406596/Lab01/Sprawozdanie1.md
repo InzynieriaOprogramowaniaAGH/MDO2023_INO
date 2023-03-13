@@ -13,13 +13,13 @@
    <img src="7.png">
 6. Utworzyłam katalog o takiej samej nazwie jak gałąź.
    <img src="8.png">
-   - Stworzyłam githooka, weryfikującego, że każdy commit message rozpoczyna się od 'JS406596'.
+   - Stworzyłam githooka, weryfikującego, że każdy commit message rozpoczyna się od 'JS406596' i nadałam odpowiednie uprawnienia.
      <img src="9.png">
      <img src="10.png">
-   - Treść githooka
+   - Treść githooka.
      <img src="12.png">
    - Dodałam plik ze sprawozdaniem.
      <img src="11.png">
-   - Wysłałam zmiany do zdalnego źródła
+   - Wysłałam zmiany do zdalnego źródła.
      <img src="13.png">
      <img src="14.png">
