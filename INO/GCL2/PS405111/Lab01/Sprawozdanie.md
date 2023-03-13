@@ -35,4 +35,22 @@
 
 * Utworzono odpowiednią strukturę katalogów i dodano plik ze sprawozdaniem w formacie Markdown. 
 
-* Utworzono hook pre-commit. 
+* Utworzono skrypt bash prepare-commit-msg. Do zmiennej commit_msg_file przypisywana jest nazwa wiadomości commita. Następnie, za pomocą polecenia `head -n 1` pobierana jest pierwsza linia wiadomości, za za pomocą `grep` werifikowane jest czy zaczyna się od 'PS405111". 
+
+    ![alt text](screen_06.jpg)
+
+
+<h2>Treść hooka</h2>
+
+```bash
+#!/bin/bash
+
+commit_msg_file=$1
+
+if ! head -n 1 $commit_msg_file | grep -q "^PS405111"; then
+    printf "\033[1;31mInvalid commit message.\n"
+    echo "It has to start with 'PS405111'\033"
+    exit 1
+fi
+
+```

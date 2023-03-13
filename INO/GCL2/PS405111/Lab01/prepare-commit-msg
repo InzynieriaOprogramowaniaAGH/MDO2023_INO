@@ -1,0 +1,8 @@
+#!/bin/bash
+
+commit_msg_file=$1
+
+if ! head -n 1 $commit_msg_file | grep -q "^PS405111"; then
+    printf "\033[1;31mInvalid commit message.\nIt has to start with 'PS405111'\033[1;37m\n"
+    exit 1
+fi
