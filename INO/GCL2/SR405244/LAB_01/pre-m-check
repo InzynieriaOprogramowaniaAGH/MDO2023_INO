@@ -1,0 +1,10 @@
+#!/bin/bash
+
+commit_msg=$(cat $1)
+
+if [[ ! $commit_msg =~ ^SR405244.*$ ]]; then
+    echo "Commit message must start with 'SR405244'."
+    echo "Commit blocked! "
+    exit 1
+fi
+
