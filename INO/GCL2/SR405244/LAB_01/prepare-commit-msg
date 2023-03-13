@@ -7,4 +7,3 @@ if [[ ! $commit_msg =~ ^SR405244.*$ ]]; then
     echo "Commit blocked! "
     exit 1
 fi
-
