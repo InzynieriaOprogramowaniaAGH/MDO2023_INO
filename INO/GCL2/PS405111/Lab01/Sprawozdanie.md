@@ -39,6 +39,10 @@
 
     ![alt text](screen_06.jpg)
 
+* Wciągnięto gałąź 'PS405111' do gałęzi grupowej.
+
+    ![alt text](screen_07.jpg)
+
 
 <h2>Treść hooka</h2>
 
