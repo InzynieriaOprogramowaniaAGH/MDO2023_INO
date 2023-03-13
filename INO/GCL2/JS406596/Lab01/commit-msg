@@ -1,0 +1,9 @@
+#!/bin/bash
+
+pattern='^(\bJS406596+)'
+
+if ! grep -iqE "$pattern" "$1"; then
+	echo "ERROR - use JS406596"
+	exit 1;
+fi
+echo "Commit message OK!"
