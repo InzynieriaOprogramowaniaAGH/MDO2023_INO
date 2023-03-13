@@ -1,6 +1,6 @@
 #Sprawozdanie 1
 ####Kosma Knap 407146 GCL1
----x
+---
 *Stworzenie dwóch różnych kluczy _SSH_:
 ![Obraz kluczy SSH](/screens/keys.png)
 Jeden z kluczy to klucz RSA, drugi to klucz ECDSA.
