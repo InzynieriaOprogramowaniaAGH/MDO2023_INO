@@ -1,0 +1,11 @@
+#!/bin/bash
+
+MSG="$1"
+
+if ! grep -iqE "WP407110" "$MSG";then
+	echo "Wrong commit message, commit message must start with WP407110"
+	exit 1
+else
+	echo "Valid commit message"
+	exit 0
+fi
