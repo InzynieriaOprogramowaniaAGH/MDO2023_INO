@@ -1,0 +1,9 @@
+#!/bin/sh
+
+commit_message_file=$1
+commit_message=$(cat "$commit_message_file")
+
+if ! echo "$commit_message" | grep -q "^PS"; then
+  printf "\033[1;31mCommit rejected! \nCommit message must start with MC400333\033[0m\n" >&2
+  exit 1
+fi
