@@ -1,6 +1,6 @@
 # Sprawozdanie 1
 1. Sprawdziłam czy na maszynie zainstalowane zostały klient git oraz obsługa kluczy SSH.
-   ![image1](/home/julia/workplace/MDO2023_INO/INO/GCL2/JS406596/Lab01/1.png)
+   <img src="1.png">
    ![image2](/home/julia/workplace/MDO2023_INO/INO/GCL2/JS406596/Lab01/2.png)
 2. Sklonowałam repozytorium za pomocą HTTPS.
    ![image3](/home/julia/workplace/MDO2023_INO/INO/GCL2/JS406596/Lab01/3.png)
