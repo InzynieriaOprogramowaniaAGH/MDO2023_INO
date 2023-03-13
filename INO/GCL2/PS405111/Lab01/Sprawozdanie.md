@@ -43,9 +43,6 @@
 
     ![alt text](screen_07.jpg)
 
-* Przy próbie zaciągnięcia najnowszych zmian następuje 
-
-
 <h2>Treść hooka</h2>
 
 ```bash
