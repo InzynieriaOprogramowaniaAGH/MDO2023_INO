@@ -38,8 +38,3 @@
 * Utworzono hook pre-commit. 
 
 
-
-
-
-
-
